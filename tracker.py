@@ -22,6 +22,12 @@ class Tracker:
 
     def update(self, frame, detections):
 
+        if len(detections) == 0:
+            self.tracker.predict()
+            self.tracker.update([])  
+            self.update_tracks()
+            return
+
         bboxes = np.asarray([d[:-1] for d in detections])
         bboxes[:, 2:] = bboxes[:, 2:] - bboxes[:, 0:2]
         scores = [d[-1] for d in detections]
