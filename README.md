@@ -17,4 +17,4 @@ You can download deep sort feature extraction model [here](https://drive.google.
 
 ## data
 
-You can download the same data I use in the video [here](https://drive.google.com/drive/folders/18srgGIoavKutQ2MDu_d8flAlOW-aDsAG?usp=share_link).
+You can download the same data I use in the video [here](https://drive.google.com/drive/folders/1kZ0QVwlwMERyTyi5c72GeqKgr8qAUx2o?usp=sharing).
